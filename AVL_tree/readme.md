@@ -1,33 +1,32 @@
-# Implementacja drzewa AVL na przyk³adzie s³ownika
+# Implementacja drzewa AVL na przykÅ‚adzie sÅ‚ownika
 
-Napisaæ program do przechowywania wyrazów w s³owniku. Program ma umo¿liwiaæ szybkie wykonywanie nastêpuj¹cych operacji:
+NapisaÄ‡ program do przechowywania wyrazÃ³w w sÅ‚owniku. Program ma umoÅ¼liwiaÄ‡ szybkie wykonywanie nastÄ™pujÄ…cych operacji:
 
-- wstawienie nowego s³owa (co najwy¿ej 30 ma³ych liter angielskich)
-- usuniêcie danego s³owa
-- wyszukanie w s³owniku zadanego s³owa
-- obliczenie liczby s³ów o danym prefiksie
-- wyœwietlenie struktury drzewa wraz z elementami
-- wykonanie skryptu poleceñ: 
-    - W x – wstaw x 
-    - U x – usuñ x 
-    - S x – szukaj x (odpowiedŸ: TAK/NIE)
-    - L x – wypisaæ, ile s³ów zaczyna siê prefiksem x
+- wstawienie nowego sÅ‚owa (co najwyÅ¼ej 30 maÅ‚ych liter angielskich)
+- usuniÄ™cie danego sÅ‚owa
+- wyszukanie w sÅ‚owniku zadanego sÅ‚owa
+- obliczenie liczby sÅ‚Ã³w o danym prefiksie
+- wyÅ›wietlenie struktury drzewa wraz z elementami
+- wykonanie skryptu poleceÅ„: 
+    - W x â€“ wstaw x 
+    - U x â€“ usuÅ„ x 
+    - S x â€“ szukaj x (odpowiedÅº: TAK/NIE)
+    - L x â€“ wypisaÄ‡, ile sÅ‚Ã³w zaczyna siÄ™ prefiksem x
 
-Przyk³ad:
-
-**Plik wejœciowy:**
+## PrzykÅ‚ad:
+### WejÅ›cie:
 ``` c#
-5           //liczba poleceñ 
-W kot       //wstaw s³owo „kot”
-W kosa      //wstaw s³owo „kosa”
-S kos       //szukaj s³owa „kos”
-W kowal     //wstaw s³owo „kowal”
-U kot       //usuñ s³owo „kot”
-L ko        //ile s³ów o prefiksie „ko”
+5           //liczba poleceÅ„ 
+W kot       //wstaw sÅ‚owo â€kotâ€
+W kosa      //wstaw sÅ‚owo â€kosaâ€
+S kos       //szukaj sÅ‚owa â€kosâ€
+W kowal     //wstaw sÅ‚owo â€kowalâ€
+U kot       //usuÅ„ sÅ‚owo â€kotâ€
+L ko        //ile sÅ‚Ã³w o prefiksie â€koâ€
 ```
 
-**Plik wyjœciowy:**
+### WyjÅ›cie:
 ```c#
-NIE         //s³owa „kos” nie ma w drzewie
-2           //2 s³owa zaczynaj¹ siê na „ko”
+NIE         //sÅ‚owa â€kosâ€ nie ma w drzewie
+2           //2 sÅ‚owa zaczynajÄ… siÄ™ na â€koâ€
 ```
