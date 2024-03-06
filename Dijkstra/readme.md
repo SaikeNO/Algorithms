@@ -28,7 +28,7 @@ W z liniach wyjœcia nale¿y odpowiedzieæ na zapytania: kiedy po raz pierwszy uda³
 2 4 35
 ```
 
-**Plik wyjœciowy:**
+### Wyjœcie:
 ```c#
 1950-10-25	//od 1950-10-25 miêdzy miastami 1 i 5 da³o siê przejechaæ w 225 minut (<=230)
 2005-06-14	//od 2005-06-14 miêdzy miastami 1 i 5 da³o siê przejechaæ w 70 minut (<=75)
